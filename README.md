@@ -1,2 +1,15 @@
-# ProgrammingInCsharp
-A comprehensive guide to C# programming fundamentals, including data structures, sorting and searching algorithms, Big O notation, and object-oriented programming (OOP). This repository is designed for learners and developers looking to strengthen their understanding of C# concepts and best practices.
+# ProgrammingInCSharp
+
+This repository contains C# programming fundamentals, algorithms, data structures, and OOP concepts.
+
+## Contents:
+1. Introduction to Programming
+2. Data Structures (Arrays, Strings, Dictionaries)
+3. Sorting Algorithms
+4. Searching Algorithms
+5. Big O Notation
+6. Common Algorithms (Recursion, Divide and Conquer, Dynamic Programming)
+7. Object-Oriented Programming (OOP)
+
+### Author:
+**Harsha Sai Jagu**
