@@ -10,7 +10,7 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
             Console.WriteLine("Running Introduction to Programming (Basic Syntax)...");
             // IntroductionToProgramming.VariablesAndDataTypes.RunExample();
             // IntroductionToProgramming.ControlStructures.RunExample();
-            // IntroductionToProgramming.BasicSyntax.RunExample();
+            IntroductionToProgramming.BasicSyntax.RunExample();
 
             // Data Structures
             // Console.WriteLine("Running Data Structures...");
@@ -42,9 +42,10 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
 
             // Object-Oriented Programming (OOP)
             // Console.WriteLine("Running Object-Oriented Programming Examples...");
-            OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
+            // OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
             // OOPs.Inheritance.InheritanceExample.RunExample();
             // OOPs.Polymorphism.PolymorphismExample.RunExample();
+            // OOPs.Interfaces.InterfacesExample.RunExample();
 
             // Program execution completed
             Console.WriteLine("\nProgram execution completed.");

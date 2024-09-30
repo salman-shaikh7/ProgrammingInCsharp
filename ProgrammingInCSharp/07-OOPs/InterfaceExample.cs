@@ -98,7 +98,7 @@ namespace OOPs.Interfaces
     }
 
     // Step 4: Demonstrating interface implementation
-    public class InterfaceExample
+    public class InterfacesExample
     {
         public static void RunExample()
         {
