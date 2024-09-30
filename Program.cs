@@ -8,7 +8,7 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
         {
             // Introduction to Programming
             Console.WriteLine("Running Introduction to Programming (Basic Syntax)...");
-            IntroductionToProgramming.VariablesAndDataTypes.RunExample();
+            // IntroductionToProgramming.VariablesAndDataTypes.RunExample();
             // IntroductionToProgramming.ControlStructures.RunExample();
             // IntroductionToProgramming.BasicSyntax.RunExample();
 
@@ -28,6 +28,7 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
             // Console.WriteLine("Running Searching Algorithms...");
             // SearchingAlgorithms.BinarySearch.RunExample();
             // SearchingAlgorithms.LinearSearch.RunExample();
+            // SearchingAlgorithms.SearchTimeComparison.RunExample();
 
             // Big O Notation
             // Console.WriteLine("Running Big O Notation Examples...");
@@ -41,7 +42,7 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
 
             // Object-Oriented Programming (OOP)
             // Console.WriteLine("Running Object-Oriented Programming Examples...");
-            // OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
+            OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
             // OOPs.Inheritance.InheritanceExample.RunExample();
             // OOPs.Polymorphism.PolymorphismExample.RunExample();
 

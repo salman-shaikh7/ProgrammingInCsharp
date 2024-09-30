@@ -2,6 +2,48 @@
 
 This repository contains C# programming fundamentals, algorithms, data structures, and OOP concepts. Each section is structured to cover key topics comprehensively, ensuring a smooth learning path from basic syntax to advanced algorithms and design patterns in C#.
 
+## Folder Structure
+
+```plaintext
+ProgrammingInCSharp/
+├── 01-Introduction-to-Programming/
+│   ├── BasicSyntax.cs
+│   ├── ControlStructures.cs
+│   └── VariablesAndDataTypes.cs
+├── 02-Data-Structures/
+│   ├── Arrays/
+│   │   └── ArraysBasics.cs
+│   ├── Dictionaries/
+│   │   └── DictionaryOperations.cs
+│   └── Strings/
+│       └── StringManipulation.cs
+├── 03-Sorting-Algorithms/
+│   ├── BubbleSort.cs
+│   ├── MergeSort.cs
+│   ├── QuickSort.cs
+│   └── SortingPerformanceAnalysis.md
+├── 04-Searching-Algorithms/
+│   ├── BinarySearch.cs
+│   ├── LinearSearch.cs
+│   ├── SearchTimeComparison.cs
+│   └── SearchingComplexityAnalysis.md
+├── 05-BigO-Notation/
+│   ├── BigOExamples.cs
+│   └── BigOExplanation.md
+├── 06-Algorithms/
+│   ├── DivideAndConquer/
+│   │   └── MergeSort.cs
+│   ├── DynamicProgramming/
+│   │   └── KnapsackProblem.cs
+│   └── Recursion/
+│       └── Fibonacci.cs
+└── 07-OOPs/
+    ├── ClassesAndObjects.cs
+    ├── InheritanceExample.cs
+    ├── OOP-Concepts.md
+    └── PolymorphismExample.cs
+```
+
 ## Contents:
 
 ### 1. Introduction to Programming
@@ -37,7 +79,7 @@ This repository contains C# programming fundamentals, algorithms, data structure
 
 ---
 
-### 2. Data Structures
+### 02. Data Structures
 #### a. Arrays/ArraysBasics.cs
 - **Topics to Cover**:
   - Array declaration, initialization, and access
@@ -114,7 +156,14 @@ This repository contains C# programming fundamentals, algorithms, data structure
   - Time complexity (`O(n)`)
 - **Objective**: Provide a simple implementation of Linear Search, comparing it to Binary Search.
 
-#### c. SearchingComplexityAnalysis.md
+#### c. SearchTimeComparison.cs
+- **Topics to Cover**:
+  - Compare search times: Linear Search, Binary Search, and Dictionary Search.
+  - Time measurement using `Stopwatch` class.
+  - Analyze time complexity differences and practical performance.
+- **Objective**: Demonstrate search time comparison for `O(n)`, `O(log n)`, and `O(1)` searches across data structures.
+
+#### d. SearchingComplexityAnalysis.md
 - **Content**:
   - Compare the time complexity of Binary Search and Linear Search.
   - Discuss when each algorithm is appropriate.
@@ -187,6 +236,47 @@ This repository contains C# programming fundamentals, algorithms, data structure
   - Use of `virtual` and `override` keywords
   - Dynamic (run-time) polymorphism using interfaces or base classes
 - **Objective**: Demonstrate polymorphism and its applications in making code flexible and reusable.
+
+## Learning Path:
+
+The following path is designed to progressively enhance your understanding of C# from fundamental concepts to advanced programming techniques.
+
+1. **Start with Programming Fundamentals**:
+   - **Introduction to Programming**:
+     - **Basic Syntax**, **Control Structures**, and **Variables & Data Types** will establish a strong foundation for programming in C#.
+
+2. **Move to Data Structures**:
+   - Learn about **Arrays**, **Strings**, and **Dictionaries**.
+   - This section introduces common data structures and their manipulation, providing the tools needed for effective data handling.
+
+3. **Study Sorting and Searching Algorithms**:
+   - Implement and compare common algorithms like **Bubble Sort**, **Quick Sort**, **Merge Sort**, and searching techniques like **Binary Search** and **Linear Search**.
+   - The **Search Time Comparison** section will offer practical insights into real-world performance.
+
+4. **Understand Algorithm Complexity with Big O**:
+   - **Big O Notation** will help you understand the time and space complexities of algorithms.
+   - Real-world examples will solidify your ability to evaluate algorithm performance.
+
+5. **Deepen your Knowledge of Advanced Algorithms**:
+   - Study **Recursion**, **Divide and Conquer** techniques like **Merge Sort**, and **Dynamic Programming** with the **Knapsack Problem**.
+
+6. **Explore Object-Oriented Programming (OOP)**:
+   - **Classes and Objects**, **Inheritance**, and **Polymorphism** are key OOP principles.
+   - Learn to implement these concepts in C# to build modular and reusable code.
+
+This path will ensure you gradually develop from basic to advanced C# programming skills, helping you master the language through a structured approach.
+
+## Recommended Platforms for Coding Practice and IDE
+
+### 1. **OnlineGDB** - Online IDE
+- **Description**: A versatile online compiler and debugger that supports a wide range of programming languages including C#, Python, Java, C++, and more.
+- **Why Use It**: Ideal for compiling and running code directly in your browser without any setup. It offers an easy-to-use interface with debugging features.
+- **Get Started**: [OnlineGDB](https://www.onlinegdb.com/)
+
+### 2. **LeetCode** - Coding Practice
+- **Description**: A popular platform for practicing coding challenges, focusing on algorithms and data structures, often used for technical interviews.
+- **Why Use It**: Great for improving problem-solving skills and preparing for coding interviews. It provides problems ranging from easy to advanced, along with solutions and discussions.
+- **Get Started**: [LeetCode](https://leetcode.com/)
 
 ---
 

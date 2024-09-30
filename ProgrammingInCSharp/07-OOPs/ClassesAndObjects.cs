@@ -2,49 +2,48 @@ using System;
 
 namespace OOPs.ClassesAndObjects
 {
-    public class Vehicle
+    // 1. Basic class definition for Car
+    public class Car
     {
-        protected string _make;
-        protected string _model;
-        protected int _year;
+        // Private fields (variables) to hold the data
+        private string _make;
+        private string _model;
+        private int _year;
 
-        public Vehicle(string make, string model, int year)
+        // Constructor to initialize the fields
+        public Car(string make, string model, int year)
         {
-            _make = make;
+            _make = make;   // Assigning values passed in the constructor to the private fields
             _model = model;
             _year = year;
         }
 
-        public virtual void DisplayInfo()
+        // Public method to display the car information
+        public void DisplayCarInfo()
         {
-            Console.WriteLine($"Vehicle: {_make} {_model} ({_year})");
+            Console.WriteLine($"Car Info: {_make} {_model}, Year: {_year}");
+        }
+
+        // Public method to simulate driving the car
+        public void Drive()
+        {
+            Console.WriteLine($"{_make} {_model} is now driving.");
         }
     }
 
-    public class Car : Vehicle
-    {
-        private int _speed;
-
-        public Car(string make, string model, int year, int speed) : base(make, model, year)
-        {
-            _speed = speed;
-        }
-
-        public override void DisplayInfo()
-        {
-            base.DisplayInfo();
-            Console.WriteLine($"Speed: {_speed} km/h");
-        }
-    }
-
+    // 2. Class to run the example
     public class ClassesAndObjectsExample
     {
         public static void RunExample()
         {
-            Console.WriteLine("\n--- Classes and Objects Example ---");
+            Console.WriteLine("\n--- Basic OOP Example: Classes and Objects ---");
 
-            Car car = new Car("Honda", "Civic", 2021, 150);
-            car.DisplayInfo();
+            // Creating an object (instance) of the Car class using the constructor
+            Car myCar = new Car("Toyota", "Corolla", 2020);
+
+            // Calling the methods on the object
+            myCar.DisplayCarInfo();
+            myCar.Drive();
         }
     }
 }
