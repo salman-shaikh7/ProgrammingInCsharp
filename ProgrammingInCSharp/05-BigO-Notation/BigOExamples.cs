@@ -4,7 +4,7 @@ namespace BigOExamples
 {
     public class BigOExamples
     {
-        public static void RunExamples()
+        public static void RunExample()
         {
             // O(1) - Constant Time Example
             Console.WriteLine("\nO(1) - Constant Time:");

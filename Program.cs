@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProgrammingInCSharp
+namespace IntroductionToProgramming//ProgrammingInCSharp
 {
     class Program
     {
@@ -31,7 +31,7 @@ namespace ProgrammingInCSharp
 
             // Big O Notation
             // Console.WriteLine("Running Big O Notation Examples...");
-            // BigONotation.BigOExamples.RunExample();
+            // BigOExamples.BigOExamples.RunExample();
 
             // Algorithms (Recursion, Divide and Conquer, Dynamic Programming)
             // Console.WriteLine("Running Algorithms...");
@@ -41,9 +41,9 @@ namespace ProgrammingInCSharp
 
             // Object-Oriented Programming (OOP)
             // Console.WriteLine("Running Object-Oriented Programming Examples...");
-            // OOPs.ClassesAndObjects.RunExample();
-            // OOPs.InheritanceExample.RunExample();
-            // OOPs.PolymorphismExample.RunExample();
+            // OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
+            // OOPs.Inheritance.InheritanceExample.RunExample();
+            // OOPs.Polymorphism.PolymorphismExample.RunExample();
 
             // Program execution completed
             Console.WriteLine("\nProgram execution completed.");

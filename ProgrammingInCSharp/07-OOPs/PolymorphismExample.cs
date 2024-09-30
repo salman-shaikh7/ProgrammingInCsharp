@@ -1,6 +1,6 @@
 using System;
 
-namespace OOPs
+namespace OOPs.Polymorphism
 {
     // 1. Base class (Animal) demonstrating dynamic polymorphism (run-time polymorphism)
     public class Animal
@@ -32,7 +32,6 @@ namespace OOPs
     // 4. Example of method overloading (compile-time polymorphism)
     public class Calculator
     {
-        // Method overloading: Different method signatures for the Add method
         public int Add(int a, int b)
         {
             return a + b;
@@ -49,28 +48,26 @@ namespace OOPs
         }
     }
 
-    public class Program
+    public class PolymorphismExample
     {
-        public static void Main(string[] args)
+        public static void RunExample()
         {
-            // 5. Demonstrating run-time polymorphism (method overriding)
+            Console.WriteLine("\n--- Polymorphism Example ---");
+
             Animal myAnimal = new Animal();
             Animal myDog = new Dog();
             Animal myCat = new Cat();
 
-            // Call the Speak method on different objects (dynamic dispatch)
-            myAnimal.Speak();  // Outputs: "The animal makes a sound."
-            myDog.Speak();     // Outputs: "The dog barks."
-            myCat.Speak();     // Outputs: "The cat meows."
+            myAnimal.Speak();
+            myDog.Speak();
+            myCat.Speak();
 
-            Console.WriteLine(); // Just a line break
+            Console.WriteLine();
 
-            // 6. Demonstrating compile-time polymorphism (method overloading)
             Calculator calc = new Calculator();
-
-            Console.WriteLine($"Add(int, int): {calc.Add(5, 10)}");        // Outputs: 15
-            Console.WriteLine($"Add(double, double): {calc.Add(5.5, 10.2)}"); // Outputs: 15.7
-            Console.WriteLine($"Add(int, int, int): {calc.Add(5, 10, 15)}");  // Outputs: 30
+            Console.WriteLine($"Add(int, int): {calc.Add(5, 10)}");
+            Console.WriteLine($"Add(double, double): {calc.Add(5.5, 10.2)}");
+            Console.WriteLine($"Add(int, int, int): {calc.Add(5, 10, 15)}");
         }
     }
 }

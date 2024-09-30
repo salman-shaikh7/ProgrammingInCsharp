@@ -1,6 +1,6 @@
 using System;
 
-namespace Algorithms.DivideAndConquer
+namespace SortingAlgorithms
 {
     public class MergeSort
     {
